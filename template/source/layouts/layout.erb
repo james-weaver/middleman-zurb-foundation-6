@@ -8,13 +8,10 @@
     <%= stylesheet_link_tag 'foundation/app', 'style'  %>
   </head>
 
-
-
-
-
   <body class="<%= page_classes %>">
-    <%= yield %>
 
+    <%= yield %>
     <%= javascript_include_tag 'vendor/jquery.min', 'vendor/what-input.min', 'vendor/foundation', 'app' %>
+
   </body>
 </html>
