@@ -2,7 +2,9 @@
 
 A basic template for Middleman 4 including [Foundation 6](http://foundation.zurb.com/)
 
-## Installation
+## Getting Started
+
+####Install Middleman
 
 Install Xcode Command Line Tools (for OS X users)
 
@@ -12,14 +14,16 @@ Install Middleman 4
 
 `$ gem install middleman`
 
-Initiate a new project with the middleman-foundation-6 template
+####Start a New Project
+
+Start a new project with the middleman-foundation-6 template
 
 `$ middleman init -T james-weaver/middleman-foundation-6 PROJECT_NAME`
 
 You'll be asked if you want to enable [livereload](https://github.com/middleman/middleman-livereload) and if you want a `rack.ru` file
 
 
-##Configuring
+##Configuration
 
 ####CSS Modules
 middleman-foundation-6 inclues all of the Foundation 6 CSS modules. You can comment out the modules you don't need in `source/stylesheets/foundation/app.css.sass` 
