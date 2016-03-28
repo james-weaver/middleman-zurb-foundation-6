@@ -27,7 +27,7 @@ middleman-foundation-6 inclues all of the Foundation 6 CSS modules. You can comm
 ####CSS Settings
 You can change Foundation 6 settings, such as grid size, by editing `source/stylesheets/foundation/_foundation-sites/_settings.scss`
 
-####JavsScript
+####JavaScript
 middleman-foundation-6 includes the Foundation 6 Javascript Modules and [jQuery 2.2.2](https://jquery.com/download/)
 
 Only some of the CSS modules require Javascript (see the [Foundation 6 documentation](http://foundation.zurb.com/sites/docs/javascript.html)). So you may choose not to include the files in `source/layouts/layout.haml`
