@@ -15,10 +15,6 @@
   <body class="<%= page_classes %>">
     <%= yield %>
 
-    <%= javascript_include_tag :all %>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/what-input.js"></script>
-    <script src="bower_components/foundation-sites/dist/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <%= javascript_include_tag 'vendor/jquery.min', 'vendor/what-input.min', 'vendor/foundation', 'app' %>
   </body>
 </html>
