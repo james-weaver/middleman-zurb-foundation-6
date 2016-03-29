@@ -1,17 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= current_page.data.title || "Middleman Foundation 6" %></title>
-    <%= stylesheet_link_tag 'foundation/app', 'style'  %>
-  </head>
-
-  <body class="<%= page_classes %>">
-
-    <%= yield %>
-    <%= javascript_include_tag 'vendor/jquery.min', 'vendor/what-input.min', 'vendor/foundation', 'app' %>
-
-  </body>
-</html>
+!!!
+%html.no-js{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %title= current_page.data.title || "Middleman Foundation 6"
+    = stylesheet_link_tag 'foundation/app', 'style'
+  %body{:class => page_classes}
+    = yield
+    = javascript_include_tag 'vendor/jquery.min', 'vendor/what-input.min', 'vendor/foundation', 'app'

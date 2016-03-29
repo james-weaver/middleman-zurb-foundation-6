@@ -34,4 +34,4 @@ You can change Foundation 6 settings, such as grid size, by editing `source/styl
 ####JavaScript
 middleman-foundation-6 includes the Foundation 6 Javascript Modules and [jQuery 2.2.2](https://jquery.com/download/)
 
-Only some of the modules require Javascript (see the [Foundation 6 documentation](http://foundation.zurb.com/sites/docs/javascript.html)). So you may choose not to include the files in `source/layouts/layout.erb`
+Only some of the modules require Javascript (see the [Foundation 6 documentation](http://foundation.zurb.com/sites/docs/javascript.html)). So you may choose not to include the files in `source/layouts/layout.haml`
